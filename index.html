@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Christian D. Melendez | Business Site</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <meta name="description" content="Welcome to Christian D. Melendez's business landing page. Modern web solutions built with style.">
+</head>
+<body class="bg-gray-950 text-white font-sans">
+
+  <!-- NAVBAR -->
+  <header class="bg-gray-900 shadow-md sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold tracking-wide text-blue-400">CDM Digital</h1>
+      <nav class="space-x-6 text-gray-300">
+        <a href="#home" class="hover:text-blue-400">Home</a>
+        <a href="#services" class="hover:text-blue-400">Services</a>
+        <a href="#testimonials" class="hover:text-blue-400">Testimonials</a>
+        <a href="#contact" class="hover:text-blue-400">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section id="home" class="bg-cover bg-center h-[90vh] flex items-center justify-center text-center" style="background-image: url('https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1600&q=80');">
+    <div class="bg-black bg-opacity-60 p-8 rounded-xl">
+      <h2 class="text-4xl md:text-6xl font-bold mb-4">Your Vision, Digitally Engineered</h2>
+      <p class="text-xl md:text-2xl mb-6 text-gray-300">Custom websites, visual identity & online strategy made simple.</p>
+      <a href="#contact" class="bg-blue-500 hover:bg-blue-600 text-white py-3 px-6 rounded-lg text-lg font-medium transition-all">Let’s Talk</a>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="py-20 px-6 text-center bg-gray-950">
+    <h3 class="text-4xl font-bold mb-12">Services I Offer</h3>
+    <div class="grid md:grid-cols-3 gap-12 max-w-6xl mx-auto">
+      <div class="bg-gray-900 p-6 rounded-lg hover:scale-105 transition-transform shadow-lg">
+        <img src="https://images.unsplash.com/photo-1605902711622-cfb43c4437d4?auto=format&fit=crop&w=800&q=80" alt="Web Development" class="rounded-md mb-4 w-full h-40 object-cover">
+        <h4 class="text-xl font-semibold mb-2 text-blue-400">Web Development</h4>
+        <p class="text-gray-400">Responsive, clean, and scalable websites tailored to your needs.</p>
+      </div>
+      <div class="bg-gray-900 p-6 rounded-lg hover:scale-105 transition-transform shadow-lg">
+        <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80" alt="Marketing" class="rounded-md mb-4 w-full h-40 object-cover">
+        <h4 class="text-xl font-semibold mb-2 text-blue-400">Digital Strategy</h4>
+        <p class="text-gray-400">Grow your brand and online presence with precision and style.</p>
+      </div>
+      <div class="bg-gray-900 p-6 rounded-lg hover:scale-105 transition-transform shadow-lg">
+        <img src="https://images.unsplash.com/photo-1581092580336-62b8f2c3f238?auto=format&fit=crop&w=800&q=80" alt="Design" class="rounded-md mb-4 w-full h-40 object-cover">
+        <h4 class="text-xl font-semibold mb-2 text-blue-400">Visual Branding</h4>
+        <p class="text-gray-400">Logos, color palettes, and a vibe that screams *you* — but professional.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section id="testimonials" class="bg-gray-900 py-20 px-6">
+    <h3 class="text-4xl font-bold text-center mb-12">Client Feedback</h3>
+    <div class="max-w-4xl mx-auto space-y-12">
+      <div class="bg-gray-800 p-6 rounded-lg shadow text-left">
+        <p class="text-lg italic text-gray-300 mb-4">"Chris brought my vision to life. Fast, responsive, and truly creative."</p>
+        <p class="font-semibold text-white">— Alex R., Music Producer</p>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-lg shadow text-left">
+        <p class="text-lg italic text-gray-300 mb-4">"Professional and passionate. My business saw real results."</p>
+        <p class="font-semibold text-white">— Mia L., E-Commerce Owner</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-20 px-6 bg-gray-950 text-center">
+    <h3 class="text-4xl font-bold mb-12">Let's Connect</h3>
+    <form class="max-w-2xl mx-auto space-y-6">
+      <input type="text" placeholder="Your Name" class="w-full p-4 bg-gray-800 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" />
+      <input type="email" placeholder="Your Email" class="w-full p-4 bg-gray-800 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" />
+      <textarea placeholder="Your Message" rows="5" class="w-full p-4 bg-gray-800 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+      <button type="submit" onclick="event.preventDefault(); alert('Thanks! I’ll get back to you soon.')" class="bg-blue-500 hover:bg-blue-600 text-white py-3 px-6 rounded-lg text-lg font-medium transition-all">Send Message</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-gray-900 text-gray-400 text-center py-6">
+    <p>&copy; 2025 Christian D. Melendez | Built with 💻 by CDM Digital</p>
+  </footer>
+
+</body>
+</html>
